@@ -54,3 +54,8 @@ To simulate QA skills using:
 This is a **fictional simulation project** for demonstration purposes and does **not reference or replicate any proprietary company systems**.
 
 ---
+
+👤 Author
+Udeshan Moodley
+QA Analyst | Manual & Automation | GitHub Portfolio Project
+📧 udeshan68@gmail.com
