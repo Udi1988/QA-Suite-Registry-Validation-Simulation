@@ -104,7 +104,7 @@ simulate_rml_input.py: The script performing validations
 
 DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 
-<img width="466" height="413" alt="image" src="https://github.com/user-attachments/assets/15eb2144-5f93-412f-aa2e-8fef6e01661c" />
+
 
 
 
