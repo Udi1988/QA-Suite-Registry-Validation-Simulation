@@ -1,0 +1,32 @@
+[
+  {
+    "holder_id": "HLD123456",
+    "name": "John Smith",
+    "balance": 1500.00,
+    "status": "Active"
+  },
+  {
+    "holder_id": "XYZ987654",
+    "name": "Jane Doe",
+    "balance": -250.00,
+    "status": "Retired"
+  },
+  {
+    "holder_id": "HLD000001",
+    "name": "",
+    "balance": 500.00,
+    "status": "Inactive"
+  },
+  {
+    "holder_id": "HLD555888",
+    "name": "Daniel Craig",
+    "balance": 0.00,
+    "status": "Deceased"
+  },
+  {
+    "holder_id": "HLD333999",
+    "name": "Emma Brown",
+    "balance": 300.75,
+    "status": "Active"
+  }
+]
