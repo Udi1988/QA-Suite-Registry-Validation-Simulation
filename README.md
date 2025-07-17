@@ -48,12 +48,6 @@ To simulate QA skills using:
 
 ---
 
-## 📌 Note
-
-This is a **fictional simulation project** for demonstration purposes and does **not reference or replicate any proprietary company systems**.
-
----
-
 💻 Script Execution Output
 
 When you run the Python script `simulate_rml_input.py`, it reads the `Sample_Registry_Data.json` file and evaluates each registry entry against the defined business rules.
@@ -106,7 +100,11 @@ DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 
 
 
+---
 
+## 📌 Note
+
+This is a **fictional simulation project** for demonstration purposes and does **not reference or replicate any proprietary company systems**.
 
 ---
 
