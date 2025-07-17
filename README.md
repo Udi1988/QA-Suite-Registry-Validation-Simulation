@@ -98,6 +98,7 @@ simulate_rml_input.py: The script performing validations
 
 DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 
+<img width="466" height="413" alt="RML Test" src="https://github.com/user-attachments/assets/cf6500f8-d545-4d0f-bfe8-e7c85c2026d0" />
 
 
 ---
