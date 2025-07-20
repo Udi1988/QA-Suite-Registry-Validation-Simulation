@@ -108,7 +108,6 @@ This is a **fictional simulation project** for demonstration purposes and does *
 
 ---
 
-👤 Author
-Udeshan Moodley
-QA Analyst | Manual & Automation | GitHub Portfolio Project
+👤 Author -- Udeshan Moodley
+QA Analyst | Manual & Automation Tester | GitHub Portfolio Project
 📧 udeshan68@gmail.com
