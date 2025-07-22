@@ -1,10 +1,10 @@
-# 🧪 RML QA Suite – Registry Validation Simulation
+**🧪 RML QA Suite – Registry Validation Simulation**
 
 > A manual QA simulation project that replicates a registry validation process inspired by RML systems used in the financial sector.
 
 ---
 
-## 🧾 Project Scope
+**🧾 Project Scope**
 
 This project simulates quality assurance validation of mock registry data based on simple business rules:
 
@@ -15,6 +15,7 @@ This project simulates quality assurance validation of mock registry data based 
 
 ---
 
+**📁 Project Structure**
 RML-QA-Suite/
 ├── Sample_Registry_Data.json            # Mock RML input data
 ├── simulate_rml_input.py                # Python validation script
@@ -37,7 +38,7 @@ RML-QA-Suite/
 
 ---
 
-## ⚙️ Technologies Used
+**⚙️ Technologies Used**
 
 - Ubuntu 24.04 LTS
 - Python 3.10+
@@ -46,9 +47,9 @@ RML-QA-Suite/
 
 ---
 
-## 🎯 Objective
+**🎯 Objective**
 
-**To Demonstrate QA skills using:**
+**To Demonstrate QA competencies in:**
 - Manual test planning
 - Test case design
 - Defect logging
@@ -57,7 +58,7 @@ RML-QA-Suite/
 
 ---
 
-💻 Script Execution Output
+**💻 Script Execution Output**
 Running simulate_rml_input.py validates registry records and outputs:
 
 **✅ Example Output**
