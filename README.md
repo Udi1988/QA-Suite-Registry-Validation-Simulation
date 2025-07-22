@@ -116,7 +116,7 @@ DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 | Component        | Description |
 |------------------|-------------|
 | Test Plan        | Strategic document defining QA approach |
-| Test Cases       | Excel-based validation steps with expected results |
+| Test Cases       | Validation steps with expected results |
 | Defect Log       | Categorized bugs with severity and test traceability |
 | Execution Report | Real-time execution summary for decision-making |
 | rml_sample.json  | Simulated input data for RML registry fields |
