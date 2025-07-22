@@ -1,7 +1,6 @@
 # 🧪 RML QA Suite – Registry Validation Simulation
 
-> A manual QA simulation project that replicates a registry validation process inspired by RML systems used in the financial sector.  
-> Designed to demonstrate core skills in test planning, case design, defect tracking, and execution reporting.
+> A manual QA simulation project that replicates a registry validation process inspired by RML systems used in the financial sector.
 
 ---
 
