@@ -1,6 +1,7 @@
-# 🧪 RML-QA-Suite – Registry Validation Simulation
+# 🧪 RML QA Suite – Registry Validation Simulation
 
-A manual QA project to validate registry records using defined business rules and simulate basic QA activities including test design, execution, and defect tracking.
+> A manual QA simulation project that replicates a registry validation process inspired by RML systems used in the financial sector.  
+> Designed to demonstrate core skills in test planning, case design, defect tracking, and execution reporting.
 
 ---
 
@@ -98,7 +99,28 @@ simulate_rml_input.py: The script performing validations
 
 DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 
-![RML Output(Image)](RML Test.png)
+---
+
+## ✅ Key Skills Demonstrated
+
+- Test Plan creation with scope, strategy, and entry/exit criteria
+- Functional and boundary test case design (positive and negative scenarios)
+- Manual execution and result tracking
+- Severity-based defect logging and status updates
+- Optional Python script to simulate technical interaction with input data
+
+---
+
+## 📁 Project Highlights
+
+| Component        | Description |
+|------------------|-------------|
+| Test Plan        | Strategic document defining QA approach |
+| Test Cases       | Excel-based validation steps with expected results |
+| Defect Log       | Categorized bugs with severity and test traceability |
+| Execution Report | Real-time execution summary for decision-making |
+| rml_sample.json  | Simulated input data for RML registry fields |
+| Python Script    | JSON viewer for optional technical showcase |
 
 ---
 
@@ -108,6 +130,11 @@ This is a **fictional simulation project** for demonstration purposes and does *
 
 ---
 
-👤 Author -- Udeshan Moodley
-QA Analyst | Manual & Automation Tester | GitHub Portfolio Project
-📧 udeshan68@gmail.com
+## 👤 About Me
+
+I'm **Udeshan Moodley**, a QA Analyst with 2+ years of experience, ISTQB certified, and certified in Python-based automation.
+
+📧 Email: udeshan68@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/udeshan-moodley/)  
+📂 Other project: [Log Parser in Python](https://github.com/Udi1988/log-parser-project)
+
