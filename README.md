@@ -29,6 +29,19 @@ RML-QA-Suite/
 
 ---
 
+## 📂 Quick Start Guide
+
+To explore the project, here’s a quick guide to the key files:
+
+- **`TestPlan_RML_QA_Suite.md`** – outlines test objectives, scope, entry/exit criteria, approach.
+- **`TestCases_RML_QA_Suite.md`** – detailed manual test cases (including positive, negative, boundary scenarios).
+- **`Sample_Registry_Data.json`** – the mock RML-style input data used for validation.
+- **`simulate_rml_input.py`** – Python script that reads the JSON and enforces business rules.
+- **`DefectLog_RML_QA_Suite.md`** – logged defects from the test run, classified by severity/status.
+- **`TestExecutionReport_RML_QA_Suite.md`** – test execution summary showing pass/fail counts and defect coverage.
+
+---
+
 ## ⚙️ Technologies Used
 
 - Ubuntu 24.04 LTS
