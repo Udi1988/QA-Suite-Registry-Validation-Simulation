@@ -66,13 +66,17 @@ Running simulate_rml_input.py validates registry records and outputs:
 RML Registry Record Validation - QA Simulation Started
 
 [Record 1 - Holder ID: HLD001] ✅ VALID  
+
 [Record 2 - Holder ID: HLD002] ❌ INVALID  
  - Balance is negative  
- - Deceased requires zero balance  
+ - Deceased requires zero balance
+   
 [Record 3 - Holder ID: 001XYZ] ❌ INVALID  
- - ID format + Invalid status  
+ - ID format + Invalid status
+   
 [Record 4 - Holder ID: HLD004] ❌ INVALID  
- - Empty name + Negative balance  
+ - Empty name + Negative balance
+   
 [Record 5 - Holder ID: HLD005] ✅ VALID  
 
 Total Evaluated: 5  
