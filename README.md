@@ -124,19 +124,6 @@ DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 
 ---
 
-## 📁 Project Highlights
-
-| Component        | Description |
-|------------------|-------------|
-| Test Plan        | Strategic document defining QA approach |
-| Test Cases       | Validation steps with expected results |
-| Defect Log       | Categorized bugs with severity and test traceability |
-| Execution Report | Real-time execution summary for decision-making |
-| rml_sample.json  | Simulated input data for RML registry fields |
-| Python Script    | JSON viewer for optional technical showcase |
-
----
-
 ## 📌 Note
 
 This is a **fictional simulation project** for demonstration purposes and does **not reference or replicate any proprietary company systems**.
