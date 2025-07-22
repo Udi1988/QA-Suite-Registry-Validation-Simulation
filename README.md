@@ -15,29 +15,25 @@ This project simulates quality assurance validation of mock registry data based 
 
 ---
 
-## 📁 Project Structure
-
 RML-QA-Suite/
-├── Sample_Registry_Data.json
-├── simulate_rml_input.py
-├── TestPlan_RML_QA_Suite.md
-├── TestCases_RML_QA_Suite.md
-├── DefectLog_RML_QA_Suite.md
-├── TestExecutionReport_RML_QA_Suite.md
+├── Sample_Registry_Data.json            # Mock RML input data
+├── simulate_rml_input.py                # Python validation script
+├── TestPlan_RML_QA_Suite.md             # Test plan with scope, approach, criteria
+├── TestCases_RML_QA_Suite.md            # Manual test cases (positive/negative/boundary)
+├── DefectLog_RML_QA_Suite.md            # Logged defects with severity and status
+├── TestExecutionReport_RML_QA_Suite.md  # Summary of test results and defect coverage
 └── README.md
 
 ---
 
-## 📂 Quick Start Guide
+📂 **Quick Start Guide**
 
-To explore the project, here’s a quick guide to the key files:
-
-- **`TestPlan_RML_QA_Suite.md`** – outlines test objectives, scope, entry/exit criteria, approach.
-- **`TestCases_RML_QA_Suite.md`** – detailed manual test cases (including positive, negative, boundary scenarios).
-- **`Sample_Registry_Data.json`** – the mock RML-style input data used for validation.
-- **`simulate_rml_input.py`** – Python script that reads the JSON and enforces business rules.
-- **`DefectLog_RML_QA_Suite.md`** – logged defects from the test run, classified by severity/status.
-- **`TestExecutionReport_RML_QA_Suite.md`** – test execution summary showing pass/fail counts and defect coverage.
+**TestPlan:** Defines objectives, scope, strategy, entry/exit criteria
+**TestCases:** Lists detailed manual test scenarios
+**Sample_Registry_Data:** Provides input data for validation
+**simulate_rml_input.py:** Enforces rules on input data
+**DefectLog:** Records issues found during testing
+**TestExecutionReport:** Summarizes results and mapping to defects
 
 ---
 
@@ -52,7 +48,7 @@ To explore the project, here’s a quick guide to the key files:
 
 ## 🎯 Objective
 
-To simulate QA skills using:
+**To Demonstrate QA skills using:**
 - Manual test planning
 - Test case design
 - Defect logging
@@ -62,54 +58,34 @@ To simulate QA skills using:
 ---
 
 💻 Script Execution Output
+Running simulate_rml_input.py validates registry records and outputs:
 
-When you run the Python script `simulate_rml_input.py`, it reads the `Sample_Registry_Data.json` file and evaluates each registry entry against the defined business rules.
-
-### 🔍 Sample Command
-
-```bash
-python3 simulate_rml_input.py
+**✅ Example Output**
 
 RML Registry Record Validation - QA Simulation Started
 
-[Record 1 - Holder ID: HLD001] ✅ VALID
+[Record 1 - Holder ID: HLD001] ✅ VALID  
+[Record 2 - Holder ID: HLD002] ❌ INVALID  
+ - Balance is negative  
+ - Deceased requires zero balance  
+[Record 3 - Holder ID: 001XYZ] ❌ INVALID  
+ - ID format + Invalid status  
+[Record 4 - Holder ID: HLD004] ❌ INVALID  
+ - Empty name + Negative balance  
+[Record 5 - Holder ID: HLD005] ✅ VALID  
 
-[Record 2 - Holder ID: HLD002] ❌ INVALID
- - Balance is negative: -150.0
- - Status 'Deceased' requires balance to be 0
-
-[Record 3 - Holder ID: 001XYZ] ❌ INVALID
- - holder_id does not start with 'HLD'
- - Status 'Closed' is not a valid status
-
-[Record 4 - Holder ID: HLD004] ❌ INVALID
- - Name is empty
- - Balance is negative: -20.0
-
-[Record 5 - Holder ID: HLD005] ✅ VALID
-
------------------------------------
-Total Records Evaluated: 5
-Valid Records: 2
-Invalid Records: 3
+Total Evaluated: 5  
+Valid: 2  
+Invalid: 3  
 
 RML Registry Record Validation - QA Simulation Completed
 
-📌 Interpretation:
+---
 
-Each record is validated line-by-line.
-
-Errors are printed clearly to help QA testers understand what failed.
-
-You can match the results above with the test case IDs and defects documented in the suite.
-
-📂 Related Files:
-
-Sample_Registry_Data.json: Source data used for validation
-
-simulate_rml_input.py: The script performing validations
-
-DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
+**📌 Interpretation**
+Each record is validated line-by-line
+Failures are clearly explained
+Matches are traceable to test cases and defect log
 
 ---
 
@@ -119,7 +95,6 @@ DefectLog_RML_QA_Suite.md: Tracks known issues found from these outputs
 - Functional and boundary test case design (positive and negative scenarios)
 - Manual execution and result tracking
 - Severity-based defect logging and status updates
-- Optional Python script to simulate technical interaction with input data
 
 ---
 
