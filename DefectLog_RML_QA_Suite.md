@@ -1,4 +1,4 @@
-# 🐞 Defect Log – RML QA Suite
+# 🐞 Defect Log – QA Suite-Registry
 
 This log captures the defects identified during manual testing of registry data using defined business validation rules.
 
