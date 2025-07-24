@@ -42,8 +42,7 @@ RML-QA-Suite/
 
 - Ubuntu 24.04 LTS
 - Python 3.10+
-- VS Code / Nano / LibreOffice 
-- Markdown for documentation
+- VS Code / Nano  
 
 ---
 
