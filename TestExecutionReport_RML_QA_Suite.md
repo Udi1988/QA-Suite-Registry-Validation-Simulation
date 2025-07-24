@@ -1,4 +1,4 @@
-# 📊 Test Execution Report – RML QA Suite
+# 📊 Test Execution Report – QA Suite-Registry
 
 ## Execution Summary
 - Total Test Cases: 10
