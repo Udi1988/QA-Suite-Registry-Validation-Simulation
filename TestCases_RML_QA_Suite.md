@@ -1,4 +1,4 @@
-# ✅ Test Cases – RML QA Suite
+# ✅ Test Cases – QA Suite-Registry
 
 | TC_ID | Test Scenario                          | Input Example         | Expected Result                          | Test Type   |
 |-------|----------------------------------------|------------------------|-------------------------------------------|-------------|
