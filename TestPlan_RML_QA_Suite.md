@@ -24,13 +24,13 @@ Testing will focus on:
 
 ## 5. Test Environment
 - OS: Ubuntu 24.04 LTS
-- Tools: Python 3.10, LibreOffice Calc
+- Tools: Python 3.10
 - Data: Sample JSON input file
 
 ## 6. Deliverables
 - Test Plan
-- Manual Test Cases (Excel)
-- Defect Log (Excel)
+- Manual Test Cases
+- Defect Log
 - Test Execution Report
 - Optional Python validator script
 
@@ -54,4 +54,3 @@ Testing will focus on:
 ## 10. Tools
 - Ubuntu Terminal
 - Python 3 for optional validation
-- LibreOffice for test case and defect management
